@@ -1,0 +1,404 @@
+﻿body,
+html {
+    background: url("scrollbackground.jpg");
+}
+
+.header {
+    color: white;
+    background-image: url('hdbackground.jpg');
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 100%;
+    padding: 2px;
+    height: auto;
+}
+
+.mainheader {
+    font-size: 5.5vw;
+    font-family: Dancing Script;
+    text-shadow: 3.5px 3.5px 3.5px red;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txone,
+.txtwo,
+.txthree,
+.txfour {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.top-header {
+    background-color: #7E0C0C;
+    border: none;
+}
+
+.imgcontainer {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo {
+    width: 10vw;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.scrollingquote {
+    font-size: 2vw;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-family: Dancing Script;
+    text-shadow: 2px 2px 2px green;
+}
+
+.navbar {
+    text-align: center;
+    background-image: linear-gradient(180deg,#7E0C0C,white,white);
+    width: 100%;
+    height: 75px;
+}
+
+
+
+.depheader {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.stafflink {
+    width: 12%;
+}
+
+.arrowcont {
+    background-color: none;
+    border-radius: 35%;
+    width: 35%;
+    height: auto;
+    padding: .5vw;
+    margin-top: 3vw;
+    margin-left: 4vw;
+}
+
+    .arrowcont:hover {
+        background-image:radial-gradient(red,white,green);
+        box-shadow: black 2px 2px 2px;
+        border: solid green 2px;
+    }
+
+.backarrow {
+    width: 100%;
+    height: auto;
+}
+
+.depname {
+    width: 100%;
+    height: 10vw;
+    font-family: dancing script;
+    font-size: 4vw;
+    padding-top:2vw;
+    padding-bottom:2vw;
+    padding-left:12vw;
+    text-shadow: red 1px 1px 1px;
+    font-weight: bold;
+}
+
+
+
+
+
+.HODmaincont{
+    text-align:center;
+    height:auto;
+    margin-bottom:3vw;
+}
+    .HODmaincont:hover{
+        font-weight:bold;
+        .HODimg{
+                   opacity:1;
+                   box-shadow:black 4px 4px 4px;
+               }
+    }
+
+.HODimgcont{
+    width:100%;
+    height:auto;
+    text-align:center;
+}
+
+.HODimg{
+    height:25vw;
+    width:auto;
+    border-radius:20%;
+    opacity:0.5;
+}
+
+.HODinfocont{
+    text-align:center;
+    width:100%;
+    height:auto;
+    margin-top:1vw;
+}
+
+.HODinfo {
+    font-size: 2vw;
+    font-family: Dancing Script;
+}
+
+.memberscont1{
+    display:flex;
+    justify-content:space-around;
+    padding:2vw;
+    margin-top:2vw;
+}
+
+.member1{
+    width:30%;
+    height:auto;
+    text-align:center;
+}
+
+    .member1:hover {
+    font-weight: bold;
+    .membphoto1{
+            opacity: 1;
+            box-shadow: black 2px 2px 2px;
+        }
+
+                    }
+
+.membphoto1{
+    width:60%;
+    height:auto;
+    border-radius:50%;
+    opacity:0.5;
+}
+
+.memberinfo{
+    width:100%;
+    height:auto;
+    font-family:Dancing Script;
+    font-size:1.5vw;
+}
+
+.arrowcont:hover {
+    background-image: radial-gradient(red,white,green);
+    box-shadow: black 2px 2px 2px;
+    border: solid green 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: rgb(52, 58, 64);
+    margin-bottom: 0px;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyrightcontainer {
+    background-color: none;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.footbox {
+    background-color: none;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.footimg {
+    height: auto;
+    width: 18vw;
+}
+
+.copyrightname {
+    background-color: none;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    font-family: Crimson Pro;
+    font-size: 1.25vw;
+}
+
+.foottext {
+    background-color: none;
+    color: white;
+    height: 100%;
+    padding: 2px;
+    width: 40%;
+    text-align: center;
+}
+
+.footername1 {
+    background-color: none;
+    display: flex;
+    font-family: Crimson Pro;
+    font-size: 4vw;
+    align-text: center;
+    justify-content: center;
+    text-shadow: red 5px 5px 5px;
+    padding: 3px;
+}
+
+.footername2 {
+    background-color: none;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 2.5vw;
+    align-text: center;
+    justify-content: center;
+    text-shadow: green 2px 2px 2px;
+    padding: 3px;
+}
+
+.footerdivider {
+    background-color: none;
+    display: flex;
+    font-family: Crimson Pro;
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.footername3,
+.footername4,
+.footername5 {
+    background-color: none;
+    display: flex;
+    font-family: Crimson Pro;
+    font-size: 1.25vw;
+    align-text: center;
+    justify-content: center;
+}
+
+.footbox2 {
+    background-color: none;
+    padding: 5px;
+    width: auto;
+}
+
+.footerscript1 {
+    background-color: none;
+    color: white;
+    font-family: Dancing Script;
+    font-size: 5vw;
+    text-align: center;
+    text-shadow: green 5px 5px 5px;
+    padding: 2px;
+}
+
+.mainiconlinkcont {
+    width: 100%;
+    background-color: rgb(52, 58, 64);
+    display: flex;
+    height: 5.5vw;
+}
+
+.iconcontainer {
+    display: flex;
+    background-color: rgb(52, 58, 64);
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+}
+
+.iconlinkcont1 {
+    margin: -.25vw;
+}
+
+.iconlinkcont2,
+.iconlinkcont3,
+.iconlinkcont4 {
+    margin: 1vw;
+}
+
+.iconlinkcont5 {
+    margin: -.25vw;
+}
+
+.iconlinkcont6,
+.iconlinkcont7 {
+    margin: 1vw;
+}
+
+.iconone,
+.icontwo {
+    width: 4vw;
+    height: 4vw;
+}
+
+.iconthree {
+    width: 3vw;
+    height: 2.5vw;
+}
+
+.iconfour {
+    width: 3vw;
+    height: 3vw;
+}
+
+.iconfive {
+    width: 6.5vw;
+    height: 4.5vw;
+}
+
+.iconsix {
+    width: 3.25vw;
+    height: 3.25vw;
+    border-radius: 50%;
+}
+
+.iconseven {
+    width: 3.25vw;
+    height: 3.25vw;
+}
+.enddiv {
+    width: 100%;
+    height: 3vw;
+    background-color: rgb(52, 58, 64);
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}

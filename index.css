@@ -1,0 +1,98 @@
+﻿
+.bodydiv {
+    display: flex;
+    padding: 1vw;
+    background: url("hdbackground.jpg");
+    height:100%;
+}
+
+.logocont{
+    width:45%;
+    height:auto;
+    padding:10vw;
+}
+.mainlogo{
+    width:100%;
+    height:auto;
+}
+
+.rightcont{
+    display:inline-block;
+    text-align:center;
+    padding:0.5vw;
+    width:65%;
+    height:auto;
+}
+.titlecont {
+    height: auto;
+    font-size: 5vw;
+    color: white;
+    font-weight: bold;
+    padding: 0.5vw;
+    text-shadow: red 4px 4px 4px;
+    font-family: dancing script;
+}
+
+.scrollingquote{
+    height:auto;
+    padding:0.25vw;
+    font-size:3vw;
+    color:red;
+    text-shadow:white 2px 2px 2px;
+    font-weight:bold;
+    font-family:dancing script;
+    background-color:none;
+}
+marquee{
+    height:4vw;
+}
+.signinbuttoncont{
+    margin-top:4vw;
+    padding-left:10vw;
+}
+.signinbutton {
+    border: white solid 0.2vw;
+    width: 18vw;
+    height: 3vw;
+    padding-top: 2vw;
+    color: white;
+    font-weight: bold;
+    border-radius: 7%;
+    text-shadow: red 3px 3px 3px;
+    transition: 0.5s;
+    font-size: 1.5vw;
+    font-family: dancing script;
+}
+
+.gamebuttoncont {
+    margin-top: 8vw;
+    padding-left: 10vw;
+}
+.gamebutton {
+    border: white solid 0.2vw;
+    width: 18vw;
+    height: 3vw;
+    padding-top:2vw;
+    color:white;
+    font-weight:bold;
+    border-radius:7%;
+    text-shadow:red 1px 1px 1px;
+    transition:0.5s;
+    font-size:1.5vw;
+    font-family:dancing script;
+}
+
+.gamelink,
+.signinlink{
+    text-decoration:none;
+}
+
+    .gamebutton:hover,
+    .signinbutton:hover{
+        color:white;
+        font-size:1.75vw;
+        background-image:linear-gradient(135deg,darkgreen,white,red);
+        padding-top:1.5vw;
+        opacity:0.8;
+        text-shadow:black 1px 1px 1px;
+    }
